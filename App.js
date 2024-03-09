@@ -9,3 +9,7 @@ app.get('/',(req, res)=>{
 app.listen(port,()=>{
     console.log(`example app listening on port ${port}`)
 })
+
+app.post('/a',(req, res)=>{
+    res.send('got a post request ')
+})
