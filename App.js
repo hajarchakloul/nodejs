@@ -16,3 +16,6 @@ app.post('/a',(req, res)=>{
 app.put('/user',(req, res)=>{
     res.send('got a put request at /user')
 })
+app.delete('/',(req, res)=>{
+    res.send('got a delete request at /user')
+})
