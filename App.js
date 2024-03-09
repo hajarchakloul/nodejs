@@ -13,3 +13,6 @@ app.listen(port,()=>{
 app.post('/a',(req, res)=>{
     res.send('got a post request ')
 })
+app.put('/user',(req, res)=>{
+    res.send('got a put request at /user')
+})
